@@ -1,0 +1,19 @@
+{
+	"name": "sftp-publish-tool",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"sftp-publish-tool": "index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jesse",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^2.19.0",
+		"ora": "^3.0.0",
+		"ssh2-sftp-client": "^3.1.0"
+	}
+}
